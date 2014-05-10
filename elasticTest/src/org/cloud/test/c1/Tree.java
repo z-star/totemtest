@@ -153,6 +153,7 @@ public class Tree {
 		tree.addNode(new TreeNode(12));
 		tree.addNode(new TreeNode(16));
 		tree.addNode(new TreeNode(18));
+		tree.addNode(new TreeNode(20));
 		tree.print();
 		tree.sumNode(tree.root_node, 20, new int[6], 0);
 		TreeNode node = tree.changeToLink();
