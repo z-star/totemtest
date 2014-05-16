@@ -17,6 +17,7 @@ public class Prime {
 
 	}
 
+	// 完数 整除的数相加 等于自生
 	public static boolean wanShu(int i) {
 		boolean flag = false;
 		int sum = 0;
