@@ -2,6 +2,7 @@ package org.cloud.test.c5;
 
 import java.util.ArrayList;
 
+
 public class Prime {
 
 	// 2到开放的数 都没法整除 就是素数
@@ -32,7 +33,6 @@ public class Prime {
 			if (isPrime(i))
 				list.add(i);
 		}
-
 	}
 
 }
