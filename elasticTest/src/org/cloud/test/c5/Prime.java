@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 public class Prime {
 
-	// 2到开放的数 都没法整除 就是素数
+	// 2到开放的数 都没法与自身整除 就是素数
 	public static boolean isPrime(int i) {
 		boolean flag = true;
 		for (int j = 2; j <= Math.sqrt(i); j++) {
@@ -17,7 +17,7 @@ public class Prime {
 
 	}
 
-	// 完数 整除的数相加 等于自生
+	// 完数 能与自身整除的所有数相加 等于自生
 	public static boolean wanShu(int i) {
 		boolean flag = false;
 		int sum = 0;
